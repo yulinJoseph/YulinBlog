@@ -1,10 +1,25 @@
 @font-face {
-    font-family: "Cascadia";
-    src: url("/YulinBlog/fonts/CascadiaCodeNF.ttf") format("truetype"), url('{{ "/YulinBlog/fonts/CascadiaNextSC.wght.ttf" | relURL }}') format("truetype");
+    font-family: "CascadiaCodeNF";
+    src: url("/YulinBlog/fonts/CascadiaCodeNF.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "CascadiaCodeNFItalic";
+    src: url("/YulinBlog/fonts/CascadiaCodeNFItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CascadiaNextSC";
+    src: url("/YulinBlog/fonts/CascadiaNextSC.wght.ttf") format("truetype");
+}
+
 body {
-    font-family: "Cascadia", Arial, sans-serif;
+    font-family: "CascadiaCodeNF", "CascadiaNextSC", Arial, sans-serif;
+}
+
+em,
+i {
+    font-family: "CascadiaCodeNFItalic", sans-serif;
 }

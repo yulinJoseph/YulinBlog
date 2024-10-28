@@ -1,0 +1,10 @@
+.DS_Store
+
+.idea/
+.vscode/
+
+
+/public/
+/resources/_gen/
+
+/.hugo_build.lock

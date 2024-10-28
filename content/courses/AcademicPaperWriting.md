@@ -10,7 +10,7 @@ tags:
 
 # **SNI-SLAM: Semantic Neural Implicit SLAM**
 
-[pic 1]
+![pic 1](/YulinBlog/images/courses/AcademicPaperWriting01.png#center)
 
 yulinJoseph 2024.10.12
 
@@ -35,7 +35,7 @@ yulinJoseph 2024.10.12
 
 &ensp;&ensp;&ensp;&ensp;Performance and ?
 
-[pic 2]
+![pic 2](/YulinBlog/images/courses/AcademicPaperWriting02.png#center)
 
 ---
 
@@ -55,17 +55,17 @@ yulinJoseph 2024.10.12
 
 ## **SLAM**
 
-[pic 3]
+![pic 3](/YulinBlog/images/courses/AcademicPaperWriting03.gif#center)
 
 ---
 
 # **01 Prerequisites**
 
-[**Video of NeRF**](https://www.bilibili.com/video/BV1va4y1r7Yg)
+[**Video of NeRF**](https://www.bilibili.com/video/BV1va4y1r7Yg#center)
 
 The core idea of NeRF is to use a neural network to represent the 3D space of a scene. In this scene, the position and viewing direction of each point are input into the network, and the network outputs the color (RGB) and volume density of that point. Through volume rendering techniques, NeRF can sample multiple 3D points along each ray (a ray projected from the camera into the scene), and finally generate the color for each pixel, synthesizing an image.
 
-[pic 4]
+![pic 4](/YulinBlog/images/courses/AcademicPaperWriting04.png#center)
 
 ---
 
@@ -117,7 +117,7 @@ _"Traditional semantic SLAM has limitations including its inability to predict u
 
 ## **An overview of SNI-SLAM**
 
-[pic 5]
+![pic 5](/YulinBlog/images/courses/AcademicPaperWriting05.png#center)
 
 ---
 
@@ -152,7 +152,7 @@ $$T_a=softmax\left(\frac{f_g\cdot{T_s^{T}}}{\sqrt{\left \| T_s \right \|^2_2 } }
 
 ## **1 Cross-Attention based Feature Fusion**
 
-[pic 6]
+![pic 6](/YulinBlog/images/courses/AcademicPaperWriting06.png#center)
 
 ---
 
@@ -172,7 +172,7 @@ Currently, existing NeRF-based semantic modeling methods employ single-level neu
 
 **Coarse-to-fine Semantic Representation.** We utilize feature planes[18] to store features, which saves storage space compared with voxel grid[19, 20]. For semantic mapping, we employ a coarse-to-fine semantic representation. For each feature plane, we use two different levels of spatial resolution. For a given coordinate, we then concatenate the corresponding coarse and fine feature. We demonstrate empirically (?) that the introduction of multilevel semantic representations improves the performance of implicit semantic modeling and provides finer and richer semantic understanding.
 
-[pic 7]
+![pic 7](/YulinBlog/images/courses/AcademicPaperWriting07.png#center)
 
 ---
 
@@ -240,7 +240,7 @@ where $C_i$, $D_i$ are rendered RGB and depth values, $C_i^{gt}$, $D_i^{gt}$ are
 
 ## **Qualitative comparison**
 
-[pic 8]
+![pic 8](/YulinBlog/images/courses/AcademicPaperWriting08.png#center)
 
 ---
 
@@ -248,7 +248,7 @@ where $C_i$, $D_i$ are rendered RGB and depth values, $C_i^{gt}$, $D_i^{gt}$ are
 
 ## **Qualitative comparison**
 
-[pic 9]
+![pic 9](/YulinBlog/images/courses/AcademicPaperWriting09.png#center)
 
 $\text{Depth L1} = \frac{1}{N} \sum_{i=1}^{N} |D_{\text{pred},i} - D_{\text{gt},i}|$
 
@@ -268,7 +268,7 @@ $\text{ATE RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} \|\mathbf{p}_i^{\text{pred}}
 
 ## **Ablation Study**
 
-[pic 10]
+![pic 10](/YulinBlog/images/courses/AcademicPaperWriting10.png#center)
 
 $\text{IoU}(c) = \frac{|P_c \cap G_c|}{|P_c \cup G_c|}$ (Intersection over Union)
 

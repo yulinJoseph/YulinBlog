@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Cascadia";
-    src: url("/fonts/CascadiaCodeNF.ttf") format("truetype"), url("/fonts/CascadiaNextSC.wght.ttf") format("truetype");
+    src: url("/YulinBlog/fonts/CascadiaCodeNF.ttf") format("truetype"), url('{{ "/YulinBlog/fonts/CascadiaNextSC.wght.ttf" | relURL }}') format("truetype");
     font-weight: normal;
     font-style: normal;
 }

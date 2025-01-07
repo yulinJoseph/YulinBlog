@@ -1,7 +1,7 @@
 baseURL: "https://examplesite.com/YulinBlog"
 title: yulin's Blog
 pagination.pagerSize: 10
-theme: PaperMod
+theme: [hugo-embed-pdf-shortcode, PaperMod]
 
 hasCJKLanguage: true
 enableInlineShortcodes: true
@@ -83,6 +83,8 @@ params:
           url: "https://github.com/yulinJoseph"
         - name: email
           url: "mailto:lin.qi@hdu.edu.cn"
+        - name: qq
+          url: "mailto:623801097@qq.com"
 
 outputs:
     home:

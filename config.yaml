@@ -1,6 +1,6 @@
 baseURL: "https://examplesite.com/YulinBlog"
 title: yulin's Blog
-paginate: 10
+pagination.pagerSize: 10
 theme: PaperMod
 
 hasCJKLanguage: true
